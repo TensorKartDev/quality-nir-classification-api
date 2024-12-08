@@ -1,0 +1,80 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+data/
+bin/
+# Virtual environment
+.env/
+.venv/
+venv/
+env/
+quality_env/
+lib/*
+share/
+include/
+.vscode
+*.xlsx
+# Environment variables
+.env
+*.env
+
+# Logs
+*.log
+logs/
+
+# Database files
+*.sqlite3
+*.db
+
+# Cache and intermediate files
+*.cache
+*.mypy_cache
+*.pyo
+*.pyd
+*.tmp
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+
+# Static and media files
+staticfiles/
+mediafiles/
+
+# Pytest and coverage
+.coverage
+.cache/
+htmlcov/
+*.cover
+*.coverage.*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Docker and Kubernetes
+docker-compose.override.yml
+docker-compose.yml
+Dockerfile
+.dockerignore
+
+# Compiled binaries
+*.so
+*.dylib
+*.dll
+
+# MacOS and Linux system files
+.DS_Store
+Thumbs.db
+
+# FastAPI-generated OpenAPI docs
+*.html
+
+# Local secrets
+local_settings.py
+secrets.json
+
+# Python egg files
+*.egg-info/
+.eggs/
